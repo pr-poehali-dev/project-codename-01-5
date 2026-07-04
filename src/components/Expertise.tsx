@@ -1,30 +1,30 @@
 import { useEffect, useRef, useState } from "react"
-import { Home, Building, Armchair, Trees } from "lucide-react"
+import { Sparkles, Palette, Megaphone, Monitor } from "lucide-react"
 import { HighlightedText } from "./HighlightedText"
 
 const expertiseAreas = [
   {
-    title: "Жилая архитектура",
-    description: "Создаем дома, которые сочетают красоту с комфортом, где каждое пространство служит и форме, и функции.",
-    icon: Home,
+    title: "Брендинг и айдентика",
+    description: "Разрабатываем логотип, фирменный стиль и визуальную систему, которые выделяют вас среди конкурентов.",
+    icon: Sparkles,
   },
   {
-    title: "Коммерческие объекты",
+    title: "Дизайн и графика",
     description:
-      "Проектируем рабочие пространства, которые вдохновляют на продуктивность и отражают ценности передовых организаций.",
-    icon: Building,
+      "Создаём упаковку, полиграфию и рекламные материалы, которые притягивают внимание и вызывают доверие.",
+    icon: Palette,
   },
   {
-    title: "Дизайн интерьеров",
+    title: "Реклама и продвижение",
     description:
-      "Создаем интерьеры, которые гармонируют с архитектурной оболочкой, формируя целостный пространственный опыт.",
-    icon: Armchair,
+      "Придумываем и запускаем креативные кампании, которые приводят клиентов и усиливают ваш бренд.",
+    icon: Megaphone,
   },
   {
-    title: "Градостроительство",
+    title: "Веб и digital",
     description:
-      "Формируем сообщества через продуманную интеграцию общественных пространств, зданий и природных элементов.",
-    icon: Trees,
+      "Проектируем сайты и лендинги, которые красиво выглядят и превращают посетителей в клиентов.",
+    icon: Monitor,
   },
 ]
 
@@ -59,12 +59,12 @@ export function Expertise() {
         <div className="max-w-3xl mb-20">
           <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наши услуги</p>
           <h2 className="text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-            <HighlightedText>Экспертиза</HighlightedText>, отточенная
+            <HighlightedText>Экспертиза</HighlightedText>, которая
             <br />
-            практикой
+            приводит клиентов
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Каждый проект опирается на десятилетия совокупного опыта, создавая архитектуру, которая одновременно инновационна и вневременна.
+            Каждый проект — это команда сильных дизайнеров, стратегов и маркетологов, которые создают креатив, работающий на ваш результат.
           </p>
         </div>
 
